@@ -1,0 +1,7 @@
+.classroom__student-point.have-point-pos {
+    background-color: rgb(88, 188, 0);
+}
+
+.classroom__student-point.have-point-neg {
+    background-color: rgb(215, 42, 43); 
+}

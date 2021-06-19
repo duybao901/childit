@@ -1,0 +1,46 @@
+.modal > *{
+    line-height: 1.6;
+    margin: 10px 10px;
+}
+
+.modal input {
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+    padding: 15px;
+    width: 250px;
+    border: 2px solid rgb(211, 215, 236);
+    border-radius: 42px;
+    outline: none;
+}
+
+.modal input:focus {
+    border-color: rgb(0, 178, 247);
+}
+
+.modal button {
+    padding: 15px;
+    border-radius: 42px;
+    /* width: 150px; */
+    border: none;
+    color: rgb(0, 178, 247);
+    background-color: white;
+    font-size: 18px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.modal .modal__accept {
+    color: white;
+    background-color: rgb(0, 178, 247);
+}
+
+.modal .modal__notaccept {
+    background-color: rgb(234, 236, 245);
+    color: white;
+    cursor: not-allowed;
+}
+
+.modal .modal__cancel:hover {
+    background-color: rgb(245, 250, 253);
+}

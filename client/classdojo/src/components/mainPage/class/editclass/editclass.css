@@ -1,0 +1,246 @@
+.editclass__menu {
+    display: flex;
+    width: 100%;
+    height: 52px;
+    align-items: center;
+    border-bottom: 1px solid rgb(234, 236, 245);
+}
+
+.editclass__menu .editclass__menu-item {
+    user-select: none;
+    cursor: default;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0px 20px;
+    outline: none;
+    color: rgb(44, 42, 80);
+    cursor: pointer;
+    height: 100%;
+}
+
+.editclass__menu .editclass__menu-item:hover {
+    background-color: rgb(247, 248, 255);
+}
+
+.editclass__menu .editclass__menu-item.active {
+    color: rgb(0, 178, 247);
+    box-shadow: rgb(0 178 247) 0px -2px 0px 0px inset;
+}
+
+.editclass__content {
+    padding: 20px;
+    min-height: 540px;
+    display: none;
+}
+
+.editclass__content.active {
+    display: block;
+}
+
+.editclass__infor-form {
+    margin-right: 50px;
+}
+
+.editclass__infor-form-gr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.editclass__infor-form-gr label {
+    width: 20%;
+    margin-right: 10px;
+    text-align: right;
+    display: inline-block;
+    height: 100%;
+    text-align: right;
+    margin-bottom: 0px;
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #2c2a50;
+    font-size: 14px;
+}
+
+.editclass__infor-form-gr select, input {
+    width: 50%;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 3px 0px inset;
+    border: 1px solid rgb(234, 236, 245);
+    outline: none;
+    height: 36px;
+    font-size: 14px;
+}
+
+.editclass__infor-form-button {
+    width: 86%;
+    text-align: right;
+}
+
+.editclass__infor-form-button button {
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    outline: none;
+    border: 1px solid rgb(234, 236, 245);
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 9px 32px;
+    border-radius: 200px;
+    box-shadow: none;
+    text-align: center;
+    color: white;
+    background-color: #1bb240;
+    transition: all .1s linear;
+    margin-left: auto;
+}
+
+.editclass__infor-form-button button.ds {
+    cursor: not-allowed;
+    background-color: rgb(234, 236, 245);
+}
+
+.editclass__dropdown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.editclass__dropdown-button {
+    background-color: rgb(247, 248, 255);
+    box-shadow: rgb(234 236 245) 0px 0px 0px 1px inset;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+
+.editclass__dropdown-button i {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    color: rgb(113, 116, 160);
+}
+
+.editclass__dropdown-button img {
+    width: 100%;
+    height: 100%;
+}
+
+.editclass__dropdown-content {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, 0);
+    background-color: white;
+    border: 1px solid rgb(234, 236, 245);
+    border-radius: 5px;
+    left: 50%;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 3px 0px;
+    z-index: 120;
+    max-height: 280px;
+    width: 510px;
+    overflow: hidden auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    display: none;
+}
+
+.editclass__dropdown-content.active {
+    display: flex;
+}
+
+.editclass__dropdown-content-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.editclass__dropdown-content-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.editclass__dropdown-content i {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    color: rgb(170, 176, 216);
+    cursor: pointer;
+    opacity: 0.7;
+    font-size: 28px;
+}
+
+.editclass__content-addst {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+}
+
+.editclass__content-addst i {
+    font-size: 35px;
+    color: var(--color-primary);
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: 10px;
+}
+
+.editclass__content-addst span {
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: var(--color-primary);
+}
+
+.editclass__content-listst {
+    max-height: 450px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.editclass__content-listst li {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.editclass__content-listst li:nth-of-type(odd) {
+    border-bottom: 1px solid rgb(247, 248, 255);
+    background-color: rgb(247, 248, 255)
+}
+
+.editclass__content-listst li img {
+    width: 36px;
+    margin-right: 10px;
+}
+
+.editclass__content-listst li span {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #2c2a50;
+}

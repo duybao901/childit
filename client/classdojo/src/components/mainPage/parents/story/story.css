@@ -1,0 +1,139 @@
+.parent__header {
+    margin-top: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #2c2a50;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(211, 215, 236);
+}
+
+.parent__header i {
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.parent {
+    height: calc(100vh - 120px);
+    background-color: #f1f1f1;
+}
+
+.parent_container {
+    max-width: 900px;
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    height: 100%;
+}
+
+.parent__tab {
+    width: 350px;
+    max-height: 500px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid rgb(234, 236, 245);
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.parent__tab-item {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.parent__tab-item.active {
+    background-color: rgb(242, 250, 255);
+    box-shadow: rgb(0 178 247) 0px 0px 0px 1px inset;
+}
+
+.parent__tab-item img {
+    margin-left: 33px;
+    margin-right: 14px;
+}
+
+.parent__tab-item p {
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(44, 42, 80);
+}
+
+.parent__content {
+    width: 530px;
+    background-color: #fff;
+    border: 1px solid rgb(234, 236, 245);
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.parent__content h2 {
+    display: flex;
+    padding: 18px;
+    position: relative;
+    /* font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    color: #2c2a50;
+    font-weight: 800;
+}
+
+.parent__content-infors {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    cursor: pointer;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: relative;
+    width: 100%;
+}
+
+.parent__content-infor {
+    margin-left: 20px;
+}
+
+.parent__content-infor p {
+    width: 400px;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 0.2rem;
+    color: rgb(44, 42, 80);
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.parent__content-infor span {
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(170, 176, 216);
+}
+
+.story__bubble {
+    display: flex;
+    /* padding: 20px 0px; */
+    /* align-items: center; */
+    margin-top: 20px;
+    height: 190px;
+    width: 100%;
+    border-radius: 50px;
+    background: url('https://home-static.classdojo.com/38efd7991645281dea0fe2dc90d03165.svg') 0% 0% / cover;
+}
+
+.story__bubble div {
+    width: 180px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    /* font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    letter-spacing: 1px;
+}

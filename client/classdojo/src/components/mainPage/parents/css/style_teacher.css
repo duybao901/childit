@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.main {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif !important;
+    width: 100%;
+}
+
+.main__header {
+    width: 100%;
+    background-color: rgb(84, 83, 130);
+}
+
+.main__header-narvigation {
+    width: 75%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.narvigation__info {
+    float: right;
+}
+
+.narvigation__info img{
+    width: 40px;
+    height: 40px;
+    margin-top: 3px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.narvigation__info-accountSettings{
+    text-align: left;
+    list-style-type: none;
+    position: absolute;
+    top: 8.5%;
+    right: 12.5%;
+    background-color: white;
+    border-radius: 3px;
+    display: none;
+}
+
+.narvigation__info-accountSettings li {
+    padding: 10px 12px;
+    border-bottom: 1px darkgray solid;
+    cursor: pointer;
+}
+
+.narvigation__info-accountSettings li:hover {
+    background-color: rgb(238, 237, 237);
+}
+
+.main__content {
+    width: 100%;
+    background-color: white;
+    height: 89vh;
+}
+
+.main__content-info {
+    width: 30%;
+    float: right;
+}
+
+.info__details {
+    width: 100%;
+    margin: 20px 0px 25px 0px;
+    height: 75px;
+}
+
+.info__details p {
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.info__details #avatar {
+    width: 75px;
+    height: 75px;
+    float: right;
+    margin-left: 20px;
+    position: relative;
+    right: 15px;
+}
+
+.info__joinSchool {
+    width: 95%;
+    margin: 0px auto;
+    padding: 20px 20px 30px 20px;
+    border-radius: 35px;
+    border: 1px solid darkgray;
+    cursor: pointer;
+    box-shadow: 0px 5px rgba(169, 169, 169, 0.185);
+}
+
+.info__joinSchool h3, p {
+    width: 70%;
+}
+
+.info__joinSchool > * {
+    display: inline-block;
+}
+
+.info__joinSchool img {
+    width: 75px;
+    height: 75px;
+    margin-right: 30px;
+    float: left;
+}
+
+.main__content-classRoom {
+    width: 69%;
+    height: 90vh;
+    background-color: rgb(234, 248, 255);
+    padding: 20px;
+    overflow: auto;
+}
+
+.classRoom__newClass {
+    text-align: center;
+    width: 20%;
+    padding: 15px 0px;
+    background-color: white;
+    border-radius: 15px;
+    border: 0.5px solid rgba(169, 169, 169, 0.103);
+    display: inline-block;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.classRoom__newClass-classname {
+    visibility: hidden;
+}
+
+.classContain .classRoom__newClass-classname {
+    visibility: visible;
+}
+
+.classContain .classRoom__newClass-info {
+    color: darkgrey;
+}

@@ -1,0 +1,124 @@
+.account__header {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.account__header h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.account__header i {
+    font-size: 26px;
+    color: #5b5b5b;
+    cursor: pointer;
+}
+
+.account__tab {
+    display: flex;
+    border-top: 1px solid rgb(234, 236, 245);
+    min-height: 545px;
+    height: 545px;
+}
+
+.account__tab-list {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(247, 248, 255);
+    border-right: 1px solid rgb(234, 236, 245);
+}
+
+.account__tab-list li {
+    margin: 0px;
+    text-align: left;
+    border-bottom: 1px solid rgb(234, 236, 245);
+    background-color: rgb(247, 248, 255);
+    width: 100%;
+    height: auto;
+    padding: 12px 22px 12px;
+    cursor: pointer;
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(44, 42, 80);
+}
+
+.account__tab-list li.active {
+    border-bottom: 1px solid rgb(234, 236, 245);
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 12px 22px 12px;
+    color: rgb(0, 178, 247);
+    background-color: white;
+}
+
+.account__tab-content {
+    padding: 10px;
+    width: 80%;
+    display: none;
+}
+
+.account__tab-content.account__tab-content--active {
+    display: block;
+}
+
+.changepw__form {
+    margin: 20px 0;
+}
+
+.changepw__form .changepw__form-group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.changepw__form .changepw__form-group label {
+    width: 30%;
+    text-align: right;
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #2c2a50;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.changepw__form .changepw__form-group input {
+    width: 48%;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 6px 10px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 3px 0px inset;
+    border: 1px solid rgb(234, 236, 245);
+    outline: none;
+    height: 36px;
+}
+
+.changepw__form-group button {
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    outline: none;
+    border: 1px solid rgb(234, 236, 245);
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 9px 32px;
+    border-radius: 200px;
+    box-shadow: none;
+    text-align: center;
+    color: white;
+    background-color: #1bb240;
+    transition: all .1s linear;
+}
+
+.changepw__form-group button:hover {
+    background-color: #25d150;
+}

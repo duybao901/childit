@@ -1,0 +1,59 @@
+.login__haveacc {
+    margin-top: 290px;
+}
+
+/* .login__form {
+    margin-bottom: 200px;
+} */
+
+.login__title {
+    margin-top: 0;
+}
+
+.login__form form {
+    width: 500px;
+}
+
+.form__forgot {
+    display: inline-block;
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: var(--color-primary);
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.forgot__form-group input {
+    display: block;
+    width: 100%;
+    color: rgb(54, 54, 54);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    border: 1px solid rgb(60, 118, 61);
+    box-shadow: rgb(0 0 0 / 8%) 0px 1px 1px inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    height: 49px;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.33;
+    border-radius: 5px;
+    margin: 1px;
+    margin-bottom: 20px;
+}
+
+.forgot__form-group button {
+    border-radius: 10px;
+}
+
+.login__loading {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}

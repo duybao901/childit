@@ -1,0 +1,292 @@
+.main__content {
+    width: 100%;
+    display: block;
+}
+
+.main__content-page1 {
+    width: 75%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.page1__role {
+    width: 47%;
+    float: left;
+    padding: 30px 0px;
+}
+
+.page1__role h1 {
+    font-size: 56px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.page1__role p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #aab0d8;
+    padding: 10px 0;
+}
+
+.page1__role h3 {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.page1__role button {
+    width: 27%;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 25px 0;
+    border-radius: 24px;
+    border: 2px solid #eaecf5;
+    background-color: white;
+}
+
+.page1__role button:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px #e6e5e5;
+}
+
+.page1__videoHeader {
+    width: 47%;
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.page1__videoHeader video {
+    border-radius: 50%;
+}
+
+.page1__videoHeader img {
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+}
+
+.main__content-learnMore {
+    width: 100%;
+    height: 90vh;
+    background-color: #f5f5f3;
+    position: relative;
+    z-index: 3;
+}
+
+.learnMore__boxContent {
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.learnMore__boxContent>h4 {
+    width: 35%;
+    font-size: 27px;
+    margin: 0 auto;
+    padding: 70px 0;
+    font-weight: 300;
+    text-align: center;
+}
+
+.learnMore__boxContent-boxDetails {
+    width: 60%;
+    margin: 100px auto;
+}
+
+.learnMore__boxContent-boxDetails .boxDetails__details {
+    width: 49%;
+    float: left;
+    background-color: white;
+    height: 220px;
+    margin: 0 2px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.boxDetails__details img {
+    position: relative;
+    top: -30px;
+}
+
+.boxDetails__details h4 {
+    margin: 0 0 15px 0;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.main__footer {
+    background-color: #575b7d;
+    width: 100%;
+    font-size: 17px;
+    color: #eaecf5;
+}
+
+
+.main__content-resources {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.main__content-resources h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main__content-resources h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.resources__teacher {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.resources__teacher-sharing {
+    width: 100%;
+    background-color: aliceblue;
+    padding: 50px 20px;
+}
+
+.resources__teacher-sharing img {
+    width: 260px;
+    height: 260px;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.resources__teacher-sharing .sharing__content {
+    width: 70%;
+    float: right;
+    margin-top: 30px;
+}
+
+.sharing__content h4 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.sharing__content p {
+    font-size: 15px;
+    margin: 15px 0 45px 0;
+}
+
+.sharing__content a {
+    color: white;
+    padding: 10px 35px;
+    text-decoration: none;
+    background-color: rgb(0, 183, 255);
+    border-radius: 35px;
+}
+
+.resources__teacher-decorationBox {
+    width: 100%;
+    margin: 10px auto;
+    background-color: #daf5ff;
+    position: relative;
+}
+
+.resources__teacher-decorationBox .decorationLeft {
+    width: 168px;
+    height: 220px;
+    object-fit: fill;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.resources__teacher-decorationBox .decorationRight {
+    width: 168px;
+    height: 220px;
+    object-fit: fill;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.decorationBox__content {
+    width: 40%;
+    margin: 0px auto;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.decorationBox__content h3 {
+    padding: 0;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.decorationBox__content p {
+    padding: 10px 0 50px 0;
+    font-size: 17px;
+}
+
+.decorationBox__content a {
+    font-weight: 700;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 35px;
+    color: rgb(0, 183, 255);
+    border: 1px rgb(0, 183, 255) solid;
+}
+
+.decorationBox__content a:hover {
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+
+.resources__parent {
+    width: 70%;
+    text-align: center;
+    margin: 100px auto;
+    height: 40vh;
+}
+
+.topicName {
+    font-size: 23px;
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.resources__parent-Box {
+    width: 48%;
+    float: left;
+    margin-top: 70px;
+    padding: 0 30px;
+    background-color: rgb(238, 253, 243);
+    height: 250px;
+}
+
+.parent-boxRight {
+    float: right;
+}
+
+.resources__parent-Box img {
+    position: relative;
+    top: -35px;
+    object-fit: contain;
+    margin: 0;
+}
+
+.resources__parent-Box>* {
+    margin: 0 0 20px 0;
+}
+
+.resources__parent-Box a {
+    background-color: white;
+    color: rgb(95, 224, 218);
+    border-radius: 30px;
+    border: rgb(95, 224, 218) 1px solid;
+    padding: 10px 20px;
+}

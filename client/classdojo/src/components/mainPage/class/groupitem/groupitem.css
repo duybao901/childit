@@ -1,0 +1,12 @@
+.groups__item-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #2c2a50;
+    overflow: hidden;
+}

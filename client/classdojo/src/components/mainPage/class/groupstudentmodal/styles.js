@@ -1,0 +1,146 @@
+const styles = theme => {
+    return {
+        modal: {
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+        },
+        paper: {
+            position: 'relative',
+            width: '610px',
+            height: '400px',
+            backgroundColor: theme.palette.background.paper,
+            border: 'none',
+            outline: 'none',
+            borderRadius: '5px',
+            overflow: 'hidden',
+            boxShadow: theme.shadows[5],
+        },
+        heading: {
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            padding: "10px 20px",
+            borderBottom: "1px solid rgb(234, 236, 245)",
+            "& h2": {
+                "maxWidth": "100%",
+                "margin": "0px",
+                "padding": "0px",
+                "fontSize": "18px",
+                "fontWeight": "600",
+                "float": "left",
+                "lineHeight": "40px",
+                "whiteSpace": "nowrap",
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                marginRight: "120px",
+            },
+            "& i": {
+                fontSize: '28px',
+                cursor: 'pointer',
+                color: "rgb(170, 176, 216)",
+            },
+        },
+        studentsp: {
+            padding: '10px',
+            maxHeight: '250px',
+            height: '250px',
+            overflowY: 'auto',
+            backgroundColor: '#f7f8ff',
+            borderTop: "1px solid rgb(234, 236, 245)",
+            borderBottom: "1px solid rgb(234, 236, 245)",
+        },
+        studentList: {
+            display: 'flex',
+            flexWrap: 'wrap',
+        },
+        studentListItem: {
+            "backgroundColor": "white",
+            "borderRadius": "5px",
+            "display": "flex",
+            alignItems: 'center',
+            "boxShadow": "rgb(0 0 0 / 5%) 0px 1px 3px 0px",
+            "userSelect": "none",
+            "cursor": "pointer",
+            "outline": "none",
+            "fontSize": "12px",
+            "position": "relative",
+            "height": "80px",
+            "width": "160px",
+            "margin": "15px",
+            "& p": {
+                marginLeft: "15px",
+                "fontSize": "18px",
+                "fontWeight": "normal",
+                "fontFamily": "'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                "color": "#2c2a50",
+                width: '85px',
+                height: '60px',
+                overflow: 'hidden'
+            }
+        },
+        skillNumber: {
+            position: 'absolute',
+            top: '-20px',
+            right: '-20px',
+            "display": "inline-block",
+            "border": "3px solid white",
+            "borderRadius": "50%",
+            "color": "white",
+            "textAlign": "center",
+            "padding": "5px",
+            "boxShadow": "rgb(0 0 0 / 15%) 0px 1px 3px 0px",
+            "fontWeight": "600",
+            "minWidth": "40px",
+            "fontSize": "20px",
+            "backgroundColor": "#1bb240"
+        },
+        skillNumberNeg: {
+            position: 'absolute',
+            top: '-20px',
+            right: '-20px',
+            "display": "inline-block",
+            "border": "3px solid white",
+            "borderRadius": "50%",
+            "color": "white",
+            "textAlign": "center",
+            "padding": "5px",
+            "boxShadow": "rgb(0 0 0 / 15%) 0px 1px 3px 0px",
+            "fontWeight": "600",
+            "minWidth": "40px",
+            "fontSize": "20px",
+            "backgroundColor": "rgb(215, 42, 43)"
+        },
+        addward: {
+            padding: "20px",
+            "& div": {
+                "userSelect": "none",
+                "cursor": "pointer",
+                "fontWeight": "600",
+                "display": "inline-block",
+                "outline": "none",
+                "border": "1px solid rgb(0, 178, 247)",
+                "fontFamily": "ProximaNova, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "fontSize": "14px",
+                "padding": "12px 0px",
+                "borderRadius": "5px",
+                "boxShadow": "none",
+                "textAlign": "center",
+                "width": "100%",
+                "color": "white",
+                "backgroundColor": "rgb(0, 178, 247)"
+            }
+        },
+        menuItem: {
+            display: 'flex',
+            alignItems: 'center',
+            fontSize: '16px',
+            "fontFamily": "ProximaNova, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "& i": {
+                marginRight: '10px',
+            }
+        },
+    }
+}
+
+export default styles;

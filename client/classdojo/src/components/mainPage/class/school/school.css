@@ -1,0 +1,106 @@
+.school {
+    width: 30%;
+}
+
+.school__wrapper {
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
+.school__user {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.school__user-infor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #2c2a50;
+}
+
+.school__user-infor-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.school__user-infor span {
+    color: rgb(170, 176, 216);
+    font-size: 14px;
+}
+
+.school__user-img {
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.school__user img {
+    object-fit: cover;
+}
+
+.school__box {
+    margin: 0 20px;
+    padding: 20px;
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #2c2a50;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 2px solid rgb(211, 215, 236);
+    box-shadow: rgb(45 64 150 / 6%) 0px 6px 0px;
+    position: relative;
+}
+
+.school__infor {
+    display: flex;
+    align-items: center;
+}
+
+.school__infor img {
+    margin-right: 10px;
+}
+
+.school__infor p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+    color: rgb(170, 176, 216);
+}
+
+.school__control {
+    border-top: 1px solid rgb(234, 236, 245);
+    padding-top: 12px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.school__control p {
+    color: rgb(44, 42, 80);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.school__control button {
+    border-radius: 40px;
+    margin: 20px auto 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(0, 178, 247);
+    padding: 20px 24px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.school__control button:hover {
+    background-color: rgb(0, 160, 247);
+}

@@ -1,0 +1,38 @@
+:root {
+    --color-primary: rgb(0, 174, 239);
+    --color-primary-light: rgb(53, 199, 252);
+    --color-primary-dark: rgb(35, 164, 211);
+}
+
+body{
+    width: 100vw;
+    overflow-x:hidden; 
+}
+
+
+@import "./components/header/header.css";
+@import "./components/home/body/body.css";
+@import "./components/home/footer/footer.css";
+@import "./components/mainPage/auth/register/register.css";
+@import "./components/mainPage/auth/login/login.css";
+@import "./components/mainPage/auth/resetpassword/resetpassword.css";
+@import "./components/pageNotFound/pagenotfound.css";
+@import './components/mainPage/class/header/header.css';
+@import "./components/mainPage/class/accountsetting/accountsetting.css";
+@import "./components/mainPage/class/editprofile/editprofile.css";
+@import "./components/mainPage/class/lauchpad/lauchpad.css";
+@import "./components/mainPage/class/school/school.css";
+@import "./components/mainPage/class/classes/classes.css";
+@import "./components/mainPage/class/classesgrade/classesgrade.css";
+@import "./components/mainPage/class/editclass/editclass.css";
+@import "./components/mainPage/class/classroom/classroom.css";
+@import "./components/mainPage/class/skills/skills.css";
+@import "./components/mainPage/class/feedbackmodal/feedbackmodal.css";
+@import "./components/mainPage/class/student/student.css";
+@import "./components/mainPage/class/feedbackmodalallclass/feedbackmodalallclass.css";
+@import "./components/mainPage/class/report/report.css";
+@import "./components/mainPage/class/editstudentmodal/editstudent.css";
+@import "./components/mainPage/class/groups/groups.css";
+@import "./components/mainPage/class/groupitem/groupitem.css";
+@import "./components/mainPage/parents/story/story.css";
+@import "./components/mainPage/class/addchild/addchild.css";

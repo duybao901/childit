@@ -1,0 +1,34 @@
+export const LOGIN = 'LOGIN'
+export const LOGOUT = 'LOGOUT'
+
+export const GET_USER = 'GET_USER'
+export const GET_TOKEN = 'GET_TOKEN'
+export const GET_CHILD = 'GET_CHILD'
+
+export const GET_CLASSES = 'GET_CLASSES'
+export const CREATE_NEW_CLASS = 'CREATE_NEW_CLASS'
+export const EDIT_CLASS = 'EDIT_CLASS'
+export const EDIT_CLASS_AVATAR = 'EDIT_CLASS_AVATAR'
+export const ADD_STUDENTS = 'ADD_STUDENTS'
+export const CHANGE_AVATAR_STUDENT = 'CHANGE_AVATAR_STUDENT'
+export const EDIT_STUDENT_INFOR = 'EDIT_STUDENT_INFOR'
+export const REMOVE_STUDENT = 'REMOVE_STUDENT'
+export const EDIT_SKILL_CLASS = 'EDIT_SKILL_CLASS'
+export const ADD_SKILL_CLASS = 'ADD_SKILL_CLASS'
+export const DELETE_SKILL_CLASS = 'DELETE_SKILL_CLASS'
+export const PLUS_SKILL_STUDENT = 'PLUS_SKILL_STUDENT'
+export const PLUS_SKILL_ALL_STUDENT = 'PLUS_SKILL_ALL_STUDENT'
+export const PLUS_SKILL_ALL_GROUP = 'PLUS_SKILL_ALL_GROUP'
+export const INVITE_PARENT = 'INVITE_PARENT'
+export const ADD_CHILD = 'ADD_CHILD'
+
+export const IS_PLUS = 'IS_PLUS'
+export const NO_PLUS = 'NO_PLUS'
+
+export const GET_GRADES = 'GET_GRADES'
+
+
+export const GET_GROUPS = 'GET_GROUPS'
+export const CREATE_GROUP = 'CREATE_GROUP'
+export const EDIT_GROUP = 'EDIT_GROUP'
+export const DELETE_GROUP = 'DELETE_GROUP'

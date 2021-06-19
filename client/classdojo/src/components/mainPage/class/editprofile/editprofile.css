@@ -1,0 +1,253 @@
+.editpf__avatar {
+    width: 116px;
+    height: 140px;
+    margin: 10px auto;
+    border: 1px solid rgb(211, 215, 236);
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.editpf__avatar-wrap {
+    padding: 10px;
+    text-align: center;
+}
+
+.editpf__avatar img {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.editpf__avatar-heading {
+    text-align: center;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.editpf__avatar span {
+    color: rgb(0, 178, 247);
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    width: 100%;
+    border-top: 1px solid rgb(211, 215, 236);
+    line-height: 28px;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.editpf__form {
+    margin-top: 20px;
+    width: 90%;
+}
+
+.editpf__form .editpf__form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.editpf__form .editpf__form-group label {
+    width: 30%;
+    text-align: right;
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #2c2a50;
+    font-size: 14px;
+}
+
+.editpf__form .editpf__form-group input {
+    width: 68%;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 6px 10px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 3px 0px inset;
+    border: 1px solid rgb(234, 236, 245);
+    outline: none;
+    height: 36px;
+}
+
+.editpf__form .editpf__form-group button {
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    outline: none;
+    border: 1px solid rgb(234, 236, 245);
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 9px 32px;
+    border-radius: 200px;
+    box-shadow: none;
+    text-align: center;
+    color: white;
+    background-color: var(--color-primary);
+    transition: all .05s linear;
+}
+
+.editpf__form .editpf__form-group button:hover {
+    background-color: var(--color-primary-light);
+}
+
+.editpf__avatar-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.editpf__avatar-cancel {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    outline: none;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 9px 32px;
+    border-radius: 200px;
+    box-shadow: none;
+    text-align: center;
+    color: white;
+    background-color: crimson;
+    transition: all .05s linear;
+}
+
+.avatar__control-wrapper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+#file_up {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(194, 195, 202);
+    position: absolute;
+    border-radius: 3px;
+    z-index: 1;
+    cursor: pointer;
+    transition: all .1s linear;
+    color: transparent;
+}
+
+#file_up:hover {
+    border: 1px solid rgb(18, 28, 79);
+}
+
+#file_up::after {
+    content: '+';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    z-index: 4;
+    background-color: white;
+    text-align: center;
+    top: 0;
+    color: var(--color-primary-dark);
+}
+
+#file_up.control__have-image::after {
+    color: transparent;
+}
+
+.editpf__avatar-control img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    object-fit: cover;
+}
+
+.editpf__avatar-control span {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    right: -15px;
+    top: -15px;
+    border: 1px solid #555;
+    color: var(--color-primary);
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 7;
+}
+
+.editpf__avatar-control .control__image-loading {
+    top: 50%;
+    left: 50%;
+    object-fit: contain;
+    width: 25%;
+    height: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.control__img-infor {
+    width: 250px;
+    margin: 10px auto;
+}
+
+.control__img-infor p:first-child {
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: 500;
+    margin-bottom: 4px;
+    word-break: break-all;
+    word-wrap: anywhere;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.control__img-infor p:last-child {
+    font-size: 11px;
+    line-height: 1.3;
+    font-weight: normal;
+    color: #757575;
+}
+
+.control__button-wrapper {
+    width: 250px;
+    margin: 10px auto;
+}
+
+.control__button {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 14px;
+    width: 50%;
+    color: #fff;
+    background-color: #1bb240;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all .1s linear;
+}
+
+.control__button:hover {
+    background-color: #1ca73f;
+}
+
+.control__button.control__button--disable {
+    background-color: #757575;
+    cursor: wait;
+}

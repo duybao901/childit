@@ -1,0 +1,55 @@
+.feedback__skill {
+    cursor: pointer;
+}
+
+.editstudent__close {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    outline: none;
+    border: 1px solid rgb(234, 236, 245);
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 9px 32px;
+    border-radius: 200px;
+    box-shadow: none;
+    text-align: center;
+    color: white;
+    background-color: #1bb240;
+    transition: all .1s linear;
+    margin-left: auto;
+}
+
+.feedback__editstudent-p {
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    outline: none;
+    border: none rgb(0, 178, 247);
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(0, 178, 247);
+}
+
+.skill__item-infor-point-neg {
+    border: 3px solid white;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 3px 0px;
+    font-weight: 600;
+    min-width: 32px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 14px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: crimson;
+}

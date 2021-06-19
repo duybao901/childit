@@ -1,0 +1,61 @@
+.main__header--lauch {
+    height: 60px;
+    background-color: rgb(84, 83, 130);
+}
+
+.main__header-narvigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.main__header-avatar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.main__header-avatar img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.main__header-avatar i {
+    font-size: 10px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.main__header-narvigation-goback {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.main__header-narvigation-goback p {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-right: 15px;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main__header-narvigation-goback p i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.main__header-narvigation-goback-stlength {
+    font-size: 14px;
+    overflow: hidden;
+    color: #fff;
+    font-weight: 400;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

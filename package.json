@@ -1,0 +1,39 @@
+{
+    "name": "nienluannganh",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "cd client/classdojo && npm run start",
+        "server-install": "npm install",
+        "client-install": "cd client/classdojo && npm install",
+        "install-all": "concurrently \"npm run server-install\" \"npm run client-install\"",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "heroku-postbuild": "cd client/classdojo && npm install && npm run build",
+        "beautiful": "prettier  --single-quote --trailing-comma all --tab-width 4 --write **/*.{js,json}",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "async": "^3.2.0",
+        "bcrypt": "^5.0.1",
+        "cloudinary": "^1.25.0",
+        "concurrently": "^6.0.0",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.2.1",
+        "googleapis": "^71.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.12.1",
+        "nodemailer": "^6.5.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7",
+        "prettier": "2.2.1"
+    }
+}

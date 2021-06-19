@@ -1,0 +1,61 @@
+.classgrade {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.classgrade img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 0px;
+}
+
+.classgrade__name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: rgb(44, 42, 80);
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.classgrade__infor {
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(113, 116, 160);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.classgrade__setting {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgb(123, 128, 155);
+    cursor: pointer;
+    padding: 12px 12px 6px 6px;
+    opacity: 0.9;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.classgrade__setting:hover {
+    opacity: 1;
+}
+
+.classgrade__box{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 5px;
+}
