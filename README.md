@@ -1,7 +1,5 @@
 # childit
 
-## Tran Bao Duy
-
 ## To download code: click to button code and click download zip
 
 ## User Interface
